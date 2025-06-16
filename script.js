@@ -1,5 +1,3 @@
-Código script.js  finalizado
-
 //criação das constantes para manipular os elementos HTML
 
 const caixaPrincipal = document.querySelector(".caixa-principal");
@@ -28,7 +26,7 @@ const perguntas = [
         alternativas: [
             {
             texto: "A música de 2Pac abordava resistência social, refletindo a resiliência de comunidades de cultura africana que dependem de ervas medicinais para sobrevivência.",
-            afirmacao: As letras de 2Pac frequentemente falavam sobre a luta e a persistência de grupos oprimidos, um paralelo com a resiliência de comunidades africanas que, através de suas tradições de cura com ervas, mantiveram sua saúde e autonomia em face de adversidades. "
+            afirmacao: "As letras de 2Pac frequentemente falavam sobre a luta e a persistência de grupos oprimidos, um paralelo com a resiliência de comunidades africanas que, através de suas tradições de cura com ervas, mantiveram sua saúde e autonomia em face de adversidades. ",
             },
             {
             texto: "O legado de 2Pac inspirou empoderamento, assim como a manutenção do conhecimento de ervas medicinais na cultura africana representa resistência cultural.",
@@ -37,7 +35,8 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Como os ideais de 2Pac e a cultura africana se alinham com a valorização das ervas medicinais em saúde comunitária?
+        enunciado: "Como os ideais de 2Pac e a cultura africana se alinham com a valorização das ervas medicinais em saúde comunitária?",
+        alternativas: [
             {
             texto: "2Pac promovia a conscientização sobre comunidades marginalizadas, conectando-se à importância do acesso a recursos como ervas medicinais, usadas em comunidades de cultura africana para saúde.",
             afirmacao: "2Pac destacava as necessidades das comunidades carentes, o que se alinha com a importância das ervas medicinais como um recurso de saúde acessível e culturalmente relevante em muitas comunidades africanas, que podem ter acesso limitado a cuidados de saúde formais."
